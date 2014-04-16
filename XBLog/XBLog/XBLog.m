@@ -3,7 +3,7 @@
 //  XBLog
 //
 //  Created by Khanh Le Do on 30/11/13.
-//  Copyright (c) 2013 Khanh Le Do. All rights reserved.
+//  Copyright (c) 2013 XeBuyt. All rights reserved.
 //
 
 #import "XBLog.h"
