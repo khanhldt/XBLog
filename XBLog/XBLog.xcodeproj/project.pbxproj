@@ -77,9 +77,13 @@
 		73995DFC184A244A00802C21 /* XBLogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XBLogTests-Info.plist"; sourceTree = "<group>"; };
 		73995DFE184A244A00802C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73995E00184A244A00802C21 /* XBLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBLogTests.m; sourceTree = "<group>"; };
-		73C2CC8A190D075300D4AAAC /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
-		73C2CC8B190D075300D4AAAC /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
-		73C2CC8C190D075300D4AAAC /* shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = shared.xcconfig; sourceTree = "<group>"; };
+		73A30D5F190E2E5B007C4F02 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		73A30D61190E2E5B007C4F02 /* masterAdhoc.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = masterAdhoc.xcconfig; sourceTree = "<group>"; };
+		73A30D62190E2E5B007C4F02 /* masterDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = masterDebug.xcconfig; sourceTree = "<group>"; };
+		73A30D63190E2E5B007C4F02 /* masterRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = masterRelease.xcconfig; sourceTree = "<group>"; };
+		73A30D64190E2E5B007C4F02 /* masterShared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = masterShared.xcconfig; sourceTree = "<group>"; };
+		73A30D65190E2E5B007C4F02 /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		73A30D66190E2E5B007C4F02 /* shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = shared.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +124,7 @@
 		73995DD8184A244A00802C21 = {
 			isa = PBXGroup;
 			children = (
-				73C2CC8A190D075300D4AAAC /* debug.xcconfig */,
-				73C2CC8B190D075300D4AAAC /* release.xcconfig */,
-				73C2CC8C190D075300D4AAAC /* shared.xcconfig */,
+				73A30D5E190E2E5B007C4F02 /* XCodeConfig */,
 				73995DE6184A244A00802C21 /* XBLog */,
 				73995DFA184A244A00802C21 /* XBLogTests */,
 				73995DE3184A244A00802C21 /* Frameworks */,
@@ -187,6 +189,28 @@
 				73995DFD184A244A00802C21 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73A30D5E190E2E5B007C4F02 /* XCodeConfig */ = {
+			isa = PBXGroup;
+			children = (
+				73A30D60190E2E5B007C4F02 /* master */,
+				73A30D5F190E2E5B007C4F02 /* debug.xcconfig */,
+				73A30D65190E2E5B007C4F02 /* release.xcconfig */,
+				73A30D66190E2E5B007C4F02 /* shared.xcconfig */,
+			);
+			path = XCodeConfig;
+			sourceTree = "<group>";
+		};
+		73A30D60190E2E5B007C4F02 /* master */ = {
+			isa = PBXGroup;
+			children = (
+				73A30D61190E2E5B007C4F02 /* masterAdhoc.xcconfig */,
+				73A30D62190E2E5B007C4F02 /* masterDebug.xcconfig */,
+				73A30D63190E2E5B007C4F02 /* masterRelease.xcconfig */,
+				73A30D64190E2E5B007C4F02 /* masterShared.xcconfig */,
+			);
+			path = master;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,7 +412,7 @@
 		};
 		73995E05184A244A00802C21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73C2CC8A190D075300D4AAAC /* debug.xcconfig */;
+			baseConfigurationReference = 73A30D5F190E2E5B007C4F02 /* debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/XBLog.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -405,7 +429,7 @@
 		};
 		73995E06184A244A00802C21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73C2CC8B190D075300D4AAAC /* release.xcconfig */;
+			baseConfigurationReference = 73A30D65190E2E5B007C4F02 /* release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/XBLog.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

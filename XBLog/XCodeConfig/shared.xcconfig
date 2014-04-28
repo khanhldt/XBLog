@@ -1,14 +1,11 @@
 
+#include "master/masterShared.xcconfig"
+
 // LINKING
 
 OTHER_LDFLAGS = -dynamic -ObjC -all_load
 
 // BUILD
-
-// Location
-OBJROOT = BuildFiles
-SYMROOT = Binaries
-
 
 // DEPLOYMENT
 
