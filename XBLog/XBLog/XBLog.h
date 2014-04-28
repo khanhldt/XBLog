@@ -6,6 +6,12 @@
 //  Copyright (c) 2013 XeBuyt. All rights reserved.
 //
 
+/**
+ * INSTRUCTION
+ * -------------------------------------------------------------------------------------
+ * 
+ */
+
 // Have to include in this order. XBLog static config should be done before custom config.
 #include "XBLogConfig.h"
 #include "XBLogCustomConfig.h"
