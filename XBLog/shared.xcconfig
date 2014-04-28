@@ -1,0 +1,23 @@
+//
+//  shared.xcconfig
+//  XBLog
+//
+//  Created by Khanh Le Do on 27/4/14.
+//  Copyright (c) 2014 Khanh Le Do. All rights reserved.
+//
+
+// LINKING
+
+OTHER_LDFLAGS = -dynamic -ObjC -all_load
+
+// BUILD
+
+// Location
+OBJROOT = BuildFiles
+SYMROOT = Binaries
+
+
+// DEPLOYMENT
+
+IPHONEOS_DEPLOYMENT_TARGET = 7.0
+
