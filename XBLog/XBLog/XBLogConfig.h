@@ -16,7 +16,7 @@
 #define XB_LOG_DEBUG    XB_LOG_TRACE + 1
 #define XB_LOG_INFO     XB_LOG_DEBUG + 1
 #define XB_LOG_WARN     XB_LOG_INFO + 1
-#define XB_LOG_ERROR    XB_LOG_ERROR + 1
+#define XB_LOG_ERROR    XB_LOG_WARN + 1
 #define XB_LOG_NONE     XB_LOG_ERROR + 1
 
 // Log print functions
