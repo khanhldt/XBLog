@@ -59,7 +59,6 @@
 
 /* Begin PBXFileReference section */
 		734397061919493100B6B377 /* ReleaseNotes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReleaseNotes.rtf; sourceTree = "<group>"; };
-		735C8DAB191A33CE0093322E /* XBLog.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = XBLog.podspec; path = ../XBLog.podspec; sourceTree = "<group>"; };
 		735CF0E3184A348A008E8F98 /* XBLogConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBLogConfig.h; sourceTree = "<group>"; };
 		735CF0E7184A923D008E8F98 /* XBLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XBLog.cpp; sourceTree = "<group>"; };
 		735CF12E184AA7EC008E8F98 /* XBLogCustomConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBLogCustomConfig.h; sourceTree = "<group>"; };
@@ -126,7 +125,6 @@
 		73995DD8184A244A00802C21 = {
 			isa = PBXGroup;
 			children = (
-				735C8DAB191A33CE0093322E /* XBLog.podspec */,
 				734397061919493100B6B377 /* ReleaseNotes.rtf */,
 				73A30D5E190E2E5B007C4F02 /* XCodeConfig */,
 				73995DE6184A244A00802C21 /* XBLog */,
